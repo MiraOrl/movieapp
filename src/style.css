@@ -1,0 +1,435 @@
+/* Reset and base styles  */
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Links */
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Common */
+
+aside,
+nav,
+footer,
+header,
+section,
+main {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul,
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input,
+textarea,
+button,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button,
+input[type="submit"] {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  display: block;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  background-color: #141414;
+}
+
+header {
+  padding: 22px 162px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.header-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  cursor: pointer;
+}
+
+.header-menu {
+  background-color: #0f0f0f;
+  width: 555px;
+  height: 75px;
+  border-radius: 12px;
+  border: 4px solid #1f1f1f;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li:first-child {
+  background-color: #1a1a1a;
+  width: 98px;
+  height: 55px;
+  padding: 14px 24px;
+  border-radius: 8px;
+}
+
+li {
+  padding-right: 30px;
+}
+
+/* li:hover {
+  background-color: #1a1a1a;
+  width: 98px;
+  height: 55px;
+  padding: 14px 24px 14px 24px;
+  border-radius: 8px;
+  transition-duration: 500ms;
+} */
+
+.header-item {
+  color: #fff;
+}
+
+a {
+  color: #bfbfbf;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+}
+
+.header-btn > a:first-child {
+  padding-right: 30px;
+}
+
+.main-content {
+  margin: 0 auto;
+}
+.title {
+  color: #fff;
+  font-weight: 700;
+}
+
+.text {
+  color: #999999;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.main__title {
+  font-size: 58px;
+  line-height: 87px;
+  text-align: center;
+  margin-top: 676px;
+}
+
+.main__text {
+  text-align: center;
+  padding: 14px 412px;
+}
+
+.main__btn {
+  margin-top: 50px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.main__button {
+  width: 251px;
+  height: 64px;
+  text-align: right;
+}
+
+.btn {
+  margin: 0 auto;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  background-color: #e50000;
+  padding: 18px 24px;
+  border-radius: 8px;
+}
+
+.play {
+  position: absolute;
+  top: 22px;
+  right: 54.6%;
+}
+/*-----------------Devices----------- */
+
+.devices {
+  padding: 150px 162px;
+}
+
+.devices__title {
+  font-size: 38px;
+  line-height: 57px;
+  text-align: left;
+  margin-top: 14px;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.header-section {
+  background-image: url("/img/bg-header.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.devices__text {
+  margin-top: 14px;
+}
+
+.devices-position {
+  display: flex;
+}
+
+.devices__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.devices__content {
+  margin-top: 80px;
+  background: linear-gradient(
+    221.52deg,
+    rgba(229, 0, 0, 0.5) -208.03%,
+    rgba(229, 0, 0, 0) 41.32%
+  );
+  width: 512px;
+  height: 283px;
+  padding: 50px;
+  border-radius: 12px;
+  border: 1px solid #262626;
+}
+
+.devices__content-description {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.devices__content-title {
+  padding-left: 16px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+.devices__content-text {
+  width: 412px;
+  margin-top: 30px;
+}
+
+/* -------------Plan Section------------------------- */
+.plan {
+  padding: 150px 162px;
+}
+
+.plan__title {
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 57px;
+}
+
+.plan__text {
+  margin-top: 14px;
+}
+
+.plan__container {
+  display: flex;
+}
+
+.plan__content {
+  margin-right: 30px;
+  margin-top: 80px;
+  background-color: #1a1a1a;
+  width: 512px;
+  height: 425px;
+  padding: 50px;
+  border-radius: 12px;
+  border: 1px solid rgba(38, 38, 38, 1);
+}
+
+.plan__title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.plan__text {
+  width: 412px;
+  margin-top: 16px;
+}
+
+.plan__btn {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.plan__money {
+  display: flex;
+  align-items: end;
+}
+.plan__sum {
+  margin-top: 50px;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 29.2px;
+  margin-right: 4px;
+}
+
+.plan__trial {
+  color: #fff;
+  width: 196px;
+  height: 63px;
+  padding: 18px 24px;
+  border-radius: 8px;
+  border: 1px solid rgba(38, 38, 38, 1);
+  background-color: rgba(20, 20, 20, 1);
+}
+
+.plan__choose {
+  width: 196px;
+  height: 63px;
+  text-align: center;
+}
+
+/* -----------------Trial------------------------ */
+
+.free-trial {
+  padding: 150px 162px;
+  background-image: url("/img/bg2.png");
+  block-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.free-trial__title {
+  margin-left: 80px;
+  margin-top: 100px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+  text-align: left;
+}
+
+.free-trial__text {
+  margin-bottom: 100px;
+  margin-top: 14px;
+  margin-left: 80px;
+}
+
+.films {
+  padding: 150px 162px;
+}
+
+.films__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.films__content {
+  width: 359px;
+  height: 500px;
+  padding: 16px;
+  border-radius: 10px;
+  border: 1px solid #262626;
+  background-color: #1a1a1a;
+}
+
+.films__img {
+  width: 319.5px;
+  height: 404px;
+  border-radius: 12px;
+}
